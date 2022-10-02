@@ -1,5 +1,5 @@
-//-----------------------------------------------------------------------------------//
 //Js Fundamentals Part 1
+//-----------------------------------------------------------------------------------//
 
 let js = "amazing";
 console.log(40 + 8 + 23 - 10);
@@ -76,27 +76,54 @@ job = 'Teacher';
 //Basic Operators
 
 //Substraction
+/*
 const now = 2022;
 const ageJonas = now - 1999;
 const ageSarah = now - 2018;
 console.log(ageJonas, ageSarah);
+*/
 
 //Multiplication, Division, Power
+/* 
 console.log(ageJonas * 2, ageJonas / 10, ageJonas ** 3)
+ */
 
 //Addition
+/* 
 const nameFirst = "Jonas";
 const nameLast = "Berg";
 console.log(nameFirst + ' ' + nameLast);
+ */
 
 //Assignment Operator
+/*
 let x = 10 + 5; // 15
 x += 10; // x = x + 10 = 25
 x *= 4; // x = x* 4 = 1000;
 x++; // x = x + 1
 x--; // x = x - 1
 console.log(x);
+*/
 
 //Comparision Operators
+/* 
 console.log(ageJonas > ageSarah);
 console.log(ageSarah >= 18);
+const isFullAge = ageSarah >= 18; 
+console.log(now - 1999 > now - 2018); */
+
+//-----------------------------------------------------------------------------------//
+// Operator Precedence
+
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+
+console.log(now - 1991 > now - 2018);
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10
+console.log(x,y);
+
+const averageAge = (ageJonas + ageSarah) / 2;
+console.log(ageJonas, ageSarah, averageAge);
